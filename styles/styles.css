@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&family=Press+Start+2P&family=Quicksand:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+
+}
+
+/* body{
+  background-image: url(send/289e1b763314ce624793e0ed711933ff.jpg);
+
+  min-height: 500px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}  */
+
+.fa-brands{
+  color: #9384D1;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+
+h1{
+    font-family: 'Quicksand' ;
+    margin-left: 50px;
+    
+    
+}
+
+.line{
+  width: 100px;
+  height: 4px;
+  background-color: #9384D1;
+  margin: 5px auto;
+  border-radius: 5px;
+  margin-left: 670px;
+  margin-top: -20px;
+
+}
+
+.link-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+
+.link-container a{
+    color: #B0A4A4;
+    background-color: white;
+    border-radius: 20px;
+    
+    text-decoration: none;
+    font-family: 'Quicksand';
+}
+
+.link-container a.commission{
+    color: white;
+    background-color: #ECC9EE;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.link-container:active{     
+  color: #B799FF;
+}
+
+
+
+@media only screen and  (max-width: 650px) {
+    .link-container {
+      position: absolute;
+      padding: 0;
+      opacity: 1;
+      background-color: transparent;
+    }
+    .link-container a {
+        flex-direction: column;
+      width: 100%;
+      margin-bottom: 10px;
+      height: 100vh;
+      justify-content: center;
+      background-color: whitesmoke;
+      margin-top: -900px;
+      transform: all 0.5s ease;
+    }
+  }
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 40px;
+  color: #025464;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/*four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/*top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.footer{
+  font-family: 'Quicksand';
+  margin-top: 40px;
+  color: #025464;
+}
+
+
+/*FORM*/
+
+.myForm{
+  width: 100%;
+  color: #025464;
+  display: flex;
+  background-color: #B799FF;
+  border-radius: 3px;
+  padding: 1.8em;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.message{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  
+}
+
+.message > textarea{
+  flex: 1;
+  min-width: 18em;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+}
+
+.contact{
+  flex: 1;
+  order: 1;
+  margin-right: 2em;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact h1{
+  font-size: 3vmin;
+  margin-bottom: 20px;
+  }
+  .contact input {
+    width: 100%;
+   
+  }
+  .contact input,
+  .contact button {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .contact button {
+   background: whitesmoke;
+   color: #025464;
+   border-radius: 20px;
+   border: 0;
+   margin-left: 30px;
+  }
+  .contact-data{
+    flex:1;
+    order: 3;
+    margin: 20px 20px;
+  }
+  .contact-data h3{
+    margin: 20px 20px;
+  }
